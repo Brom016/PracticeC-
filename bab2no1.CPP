@@ -1,3 +1,12 @@
+/*
+SOAL
+Buatlah program untuk menghitung nilai rata-rata dari seorang siswa, dengan
+ketentuan sebagai berikut :
+    - Nim Siswa, Nama Siswa, Nilai Tugas 1, Nilai Tugas II, Nilai Tugas  III
+        diinput.
+    - Nilai Rata-rata merupakan hasil dari Nilai Tugas I, II dan III dibagi dengan 3.
+*/
+
 #include <iostream.h>
 #include <conio.h>
 

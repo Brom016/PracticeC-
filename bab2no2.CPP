@@ -1,3 +1,15 @@
+/*
+SOAL
+Buatlah  program  untuk  menghitung  nilai  akhir  seorang  siswa  dari  kursus
+yang diikutinya. Dengan ketentuan sebagai berikut:
+
+    - Nama Siswa, Nilai Keaktifan, Nilai Tugas dan Nilai Ujian diinput. 
+    - Proses yang dilakukan untuk mendapatkan nilai murni dari masing-masing nilai,
+        adalah  : Nilai Murni Keaktifan = Nilai Keaktifaan dikalikan dengan 20%.
+                : Nilai Murni Tugas = Nilai Tugas dikalikan dengan 30%
+                : Nilai Murni Ujian = Nilai Ujian dikalikan dengan 50%
+                : Nilai Akhir adalah Nilai Murni Keaktifan + Nilai Murni Tugas + Nilai Murni Ujian
+*/
 #include <iostream.h>
 #include <conio.h>
 
