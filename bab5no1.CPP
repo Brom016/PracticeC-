@@ -3,7 +3,7 @@
 
 int main()
 {
-    // Deklarasi variabel
+    // variabel
     char namaSiswa[50];
     float nilai1, nilai2, nilai3, rataRata;
     int juara;
@@ -21,10 +21,10 @@ int main()
     cout << "Nilai Pertandingan III: ";
     cin >> nilai3;
 
-    // Menghitung rata-rata
+    // counting rata rata
     rataRata = (nilai1 + nilai2 + nilai3) / 3;
 
-    // Menentukan juara
+    // Kondisi Juara
     if (rataRata > 80)
         juara = 1;
     else if (rataRata > 75)
@@ -34,11 +34,10 @@ int main()
     else
         juara = 0;
 
-    // Tampilan output
-    clrscr();
+    // Output
     cout << "Siswa yang bernama " << namaSiswa << "\n";
     cout << "Memperoleh nilai rata-rata ";
-    cout << (float)((int)(rataRata * 100 + 0.5) / 100.0); // Membulatkan hingga 2 desimal
+    cout << (float)((int)(rataRata * 100 + 0.5) / 100.0);
 
     if (juara > 0)
         cout << " dan menjadi juara ke-" << juara << " dari hasil perlombaan yang diikutinya.";
@@ -46,6 +45,4 @@ int main()
         cout << " dan tidak menjadi juara dari hasil perlombaan yang diikutinya.";
 
     getch();
-    return 0;
 }
-

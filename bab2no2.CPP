@@ -3,7 +3,7 @@ SOAL
 Buatlah  program  untuk  menghitung  nilai  akhir  seorang  siswa  dari  kursus
 yang diikutinya. Dengan ketentuan sebagai berikut:
 
-    - Nama Siswa, Nilai Keaktifan, Nilai Tugas dan Nilai Ujian diinput. 
+    - Nama Siswa, Nilai Keaktifan, Nilai Tugas dan Nilai Ujian diinput.
     - Proses yang dilakukan untuk mendapatkan nilai murni dari masing-masing nilai,
         adalah  : Nilai Murni Keaktifan = Nilai Keaktifaan dikalikan dengan 20%.
                 : Nilai Murni Tugas = Nilai Tugas dikalikan dengan 30%
@@ -13,16 +13,17 @@ yang diikutinya. Dengan ketentuan sebagai berikut:
 #include <iostream.h>
 #include <conio.h>
 
-int main() {
+int main()
+{
     char nama[50];
     float nKeaktifan, nTugas, nUjian;
     float nmKeaktifan, nmTugas, nmUjian, nAkhir;
 
-    //input
+    // input
     clrscr();
     cout << "PROGRAM HITUNG NILAI AKHIR" << endl;
     cout << "Nama Siswa         : ";
-    cin.getline(nama, 50); //untuk spasi
+    cin.getline(nama, 50); // untuk spasi
     cout << "Nilai Keaktifan    : ";
     cin >> nKeaktifan;
     cout << "Nilai Tugas        : ";
@@ -30,13 +31,13 @@ int main() {
     cout << "Nilai Ujian        : ";
     cin >> nUjian;
 
-    //Proses
+    // Proses
     nmKeaktifan = nKeaktifan * 0.2;
     nmTugas = nTugas * 0.3;
     nmUjian = nUjian * 0.5;
     nAkhir = nmKeaktifan + nmTugas + nmUjian;
 
-    //Output
+    // Output
     clrscr();
     cout << "Siswa yang bernama " << nama << endl;
     cout << "Dengann Nilai Persentasi Yang dihasilkan:" << endl;

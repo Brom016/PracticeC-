@@ -2,26 +2,26 @@
 SOAL
 Buatlah program untuk menggabungkan dua buah string
 Kalimat1 = Teknik
-Kalimat2 = Informatika 
+Kalimat2 = Informatika
 Menjadi seperti berikut:
-TeknikInformatika 
+TeknikInformatika
 */
 #include <iostream.h>
 #include <conio.h>
 #include <string.h>
 
-int main() 
+int main()
 {
-    //variabel string
+    // variabel string
     char kalimat1[] = "Teknik";
     char kalimat2[] = "Informatika";
     char hasil[50];
 
-    //penggabungan 2 string
-    strcpy(hasil, kalimat1); //copy kalimat1 ke ouput
-    strcat(hasil, kalimat2); //add kalimat2 ke output
+    // penggabungan 2 string
+    strcpy(hasil, kalimat1); // copy kalimat1 ke ouput
+    strcat(hasil, kalimat2); // add kalimat2 ke output
 
-    //ooutput
+    // ooutput
     cout << hasil << endl;
 
     getch();

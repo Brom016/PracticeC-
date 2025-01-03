@@ -1,7 +1,7 @@
 /*
 SOAL
-Buatlah program untuk menghitung panjang kata berikut ini: 
-Teknik Informatika Universitas Wahid Hasyim 
+Buatlah program untuk menghitung panjang kata berikut ini:
+Teknik Informatika Universitas Wahid Hasyim
 */
 #include <iostream.h>
 #include <conio.h>
